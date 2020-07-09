@@ -1,0 +1,24 @@
+html, body{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background: lightyellow;
+}
+button{
+    height: 50px;
+    width: 150px;
+    font-weight: bolder;
+    font-size: 12ptpt;
+    border-radius: 5px;
+    box-shadow: inset grey -2px -2px;
+}
+button:hover{
+    box-shadow: inset grey -1px -1px;
+}
+button:active{
+    box-shadow: inset grey 0px 0px;
+}
+button:focus{
+    outline: none;
+    text-decoration: underline;
+}
